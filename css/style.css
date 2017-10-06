@@ -5,6 +5,16 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: none;
 }
+      a { color: #12C; }
+      a:visited { color: #61C; }
+      a:focus { outline: thin dotted; }
+      a:hover, a:active { color: #c00; outline: 0; } 
+      img { border: 0; max-width: 100%; }
+      body { background: #fff; }
+      footer {
+  padding: 0 0.5em;
+  border-top: 1px solid #ccc;
+}
 body { margin: 0; font-size: 14px; line-height: 1.61; font-weight: 400; }
 body, button, input, select, textarea { font-family: 'Open Sans', sans-serif; color: #333; }
 b, strong { font-weight: bold; }
